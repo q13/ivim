@@ -450,7 +450,7 @@ endif
 
 if has('gui_running')
     if has('gui_gtk')
-        set guifont=Monospace\ 11
+        set guifont=Courier\ New\ 13
     elseif has('gui_macvim')
         set guifont=Monaco:h11
     elseif has('gui_win32')
