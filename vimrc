@@ -438,7 +438,7 @@ set background=dark " Set background
 if !has('gui_running')
     set t_Co=256 " Use 256 colors
 endif
-colorscheme hybrid " Load a colorscheme
+colorscheme solarized " Load a colorscheme
 
 nnoremap <silent>\t :colorscheme Tomorrow-Night-Eighties<CR>
 nnoremap <silent>\j :colorscheme jellybeans<CR>
